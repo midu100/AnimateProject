@@ -1,91 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scooter</title>
-    <!-- link favicon -->
-     <link rel="icon" href="img/logo.png">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <!-- link css -->
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scooter</title>
+  <!-- link AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- link favicon -->
+  <link rel="icon" href="img/logo.png">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <!-- link css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
 </head>
+
 <body>
-    <!-- navbar start -->
+  <!-- navbar start -->
 
-    <nav class="navbar navbar-expand-lg mainNav">
-        <div class="container">
-          <a class="navbar-brand navLogo" href="#"><img src="img/logo.png" alt="Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">PRODUCTS</a>
-              </li>
+  <nav class="navbar navbar-expand-lg mainNav">
+    <div class="container">
+      <a class="navbar-brand navLogo" href="#"><img src="img/logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PRODUCTS</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">GALLERY</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">GALLERY</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+          </li>
+        </ul>
 
-            <div class="navBtn">
-                <a href="#">LOG IN</a>
-                <a href="#">SIGN UP</a>
+        <div class="navBtn">
+          <a href="#">LOG IN</a>
+          <a href="#">SIGN UP</a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+
+  <!-- banner start -->
+
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="bannerText">
+            <h1 data-aos="zoom-in" data-aos-duration="800">Let's ride <span>the future.</span></h1>
+
+            <span class="baseLine"></span>
+            <p data-aos="fade-down" data-aos-duration="1500" class="para">Simple and sleek design with users in mind.</p>
+
+            <div class="bannerBtn">
+
+              <!-- aniamte button -->
+              <!-- From Uiverse.io by cssbuttons-io -->
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Buy now</span>
+              </button>
+              <!-- animate button end -->
+
+              <p>Watch our
+                video how
+                it works</p>
+
+
+                <div class="bannerRotate">
+                  <a href="#"><img src="img/rotatePic.png"></a>
+                  <img class="triangle" src="img/triangle.png">
+                </div>
+                
+
             </div>
 
           </div>
+
+          <div class="bannerScooterBg">
+            <img src="img/scooterBG.png" alt="bg">
+          </div>
+
+          <div  data-aos="fade-right" data-aos-duration="1500" class="bannerScooter">
+            <img src="img/scooter.png" alt="scooter">
+          </div>
         </div>
-      </nav>
 
+      </div>
+    </div>
+  </section>
 
-    <!-- banner end -->
+  <!-- banner end -->
 
-    <section id="banner">
-        <div class="container">
-            <div class="row">
+<!-- start counter -->
+ <section id="Counter">
+  <div class="container">
+    <div class="row">
 
-                <div class="col-lg-12">
-                    <div class="bannerText">
-                        <h1>Let's ride <span>the future.</span></h1>
-                        <span class="baseLine"></span>
-                        <p class="para">Simple and sleek design with users in mind.</p>
-                        <!-- aniamte button -->
-                        <button class="bookmarkBtn">
-                            <span class="IconContainer">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </span>
-                            <p class="text">BUY NOW</p>
-                          </button>
-                        <!-- animate button end -->
-                    </div>
-                </div>
-
-            </div>
+      <div class="col-lg-2">
+        <div data-aos="fade-right"  data-aos-duration="400" class="singleCounter">
+          <h2><span class="counter">1000</span>lbs</h2>
+          <p>Net Weight</p>
         </div>
-    </section>
+      </div>
 
-    <!-- banner start -->
+      <div class="col-lg-2">
+        <div data-aos="fade-right" data-aos-duration="700" class="singleCounter">
+          <h2><span class="counter">26</span>mph</h2>
+          <p>Top Speed</p>
+        </div>
+      </div>
 
-    
-    <!-- navbar end -->
+      <div class="col-lg-2">
+        <div data-aos="fade-right" data-aos-duration="1000" class="singleCounter">
+          <h2><span class="counter">38</span>miles</h2>
+          <p>Max Range</p>
+        </div>
+      </div>
 
-        <!-- navbar start -->
+      <div class="col-lg-2">
+        <div data-aos="fade-right" data-aos-duration="1400" class="singleCounter">
+          <h2><span class="counter">89</span>nm</h2>
+          <p>Max Torques</p>
+        </div>
+      </div>
 
-    
-    <!-- navbar end -->
-    
+      <div class="col-lg-2">
+        <div data-aos="fade-right" data-aos-duration="1700" class="singleCounter">
+          <h2><span><span class="counter">22</span>%</span>slope</h2>
+          <p>Hill Climbing</p>
+        </div>
+      </div>
+
+      <div class="col-lg-2">
+        <div data-aos="fade-right" data-aos-duration="2000" class="singleCounter">
+          <h2><span><span class="counter">2</span>x</span></h2>
+          <p>Net Weight</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </section>
+ <!-- end counter -->
+
+ <!-- start information -->
+  <section id="information">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="commonHead">
+            <h1>Product Information</h1>
+            <p>Our Scooter has following unique design and technology features:</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row infoRow">
+        <div class="col-lg-7">
+          <div data-aos="fade-down-left" data-aos-duration="1500" class="infoImg">
+            <img src="img/scooter2.png" alt="scooter">
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="infoText">
+            <p><img src="img/tik.png" alt="tik">Lightweight aircraft grade aluminium frame</p>
+            <p><img src="img/tik.png" alt="tik">Car grade lithium battery</p>
+            <p><img src="img/tik.png" alt="tik">Self-balanced</p>
+            <p><img src="img/tik.png" alt="tik">Plug n play</p>
+            <p><img src="img/tik.png" alt="tik">Quick release adapter</p>
+            <p><img src="img/tik.png" alt="tik">RFID key card</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end information -->
+
+  <!-- start motor -->
+   <section id="motor">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="commonHead">
+            <h1>High Efficiency Motor</h1>
+            <p>More torque for powerful riding with 22% maximum hill climbing capability.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row motorRow">
+        <div class="col-lg-12">
+          <div data-aos="zoom-in-down" data-aos-duration="1000" class="motorImg">
+            <img src="img/tier.png" alt="tier">
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
 
 
-    <!-- link js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+
+
+  <!-- link js -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  
+   <!-- aos -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+  </script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
