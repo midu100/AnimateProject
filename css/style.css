@@ -314,3 +314,350 @@ button {
   .motorRow .motorImg{
     width: 1408px;
   }
+  /* end motor */
+  /* start accesories */
+  #accesories{
+    padding-top: 127px;
+  }
+  .accesoriesRow{
+    margin-top: 112px;
+  }
+  .accesoriesRow .accesoriesTik p img{
+    width: 49px;
+    height: 49px;
+    margin-right: 18px;
+  }
+  
+  .accesoriesRow .accesoriesText{
+    margin-top: 80px;
+  }
+  .accesoriesRow .accesoriesText h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+    margin-bottom: 33px;
+  }
+  
+  .accesoriesRow .accesoriesTik p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+
+  }
+  .accesoriesRow .accesoriesImg{
+    width: 878px;
+  }
+  /* end accesories */
+  /* start shopping */
+  #shopping{
+    padding-top: 132px;
+    padding-bottom: 127px;
+    position: relative;
+  }
+.shoppingImg{
+    width: 779px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.shoppingText{
+    margin-left: 876px;
+}
+  .shoppingText h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+    margin-bottom: 33px;
+    
+
+  }
+  
+  .shoppingText p img{
+    width: 49px;
+    height: 49px;
+    margin-right: 18px;
+  }
+  .shoppingText p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+
+  }
+  .shoppingBtn{
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .shoppingBtn a{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+    padding: 29px 64px;
+    border: 2px solid var(--brandColor);
+    border-radius: 10px;
+
+  }
+  /* end shopping */
+  /* start gallery */
+  #gallery{
+    padding-bottom: 127px;
+  }
+  .galleryRow{
+    margin-top: 112px;
+  }
+  .galleryScooter{
+    width: 633px;
+    margin-top: 190px;
+  }
+  .galleryButton{
+    margin-top: 55px;
+  }
+  .galleryBtn {
+    width: 570px;
+    height: 94px;
+    border: 2px solid var(--brandColor);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+
+  }
+  .galleryBtnM{
+    margin-bottom: 0;
+  }
+  .galleryBtn a{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+  }
+  .galleryQualityImg,.galleryPartsImg{
+    width: 633px;
+  }
+  .galleryQualityImg{
+    margin-bottom: 94px;
+  }
+  /* end gallery */
+  /* start color */
+  .colorRow{
+    margin-top: 152px;
+  }
+  .slideImg{
+    width: 100%;
+  }
+.colorNav img{
+    width: 245px;
+}
+.colorMainSlider{
+    position: relative;
+}
+.colorSlide2{
+    position: relative;
+    bottom: 100px;
+}
+/* end color */
+/* start testimonials */
+#testimonial{
+    margin-top: 366px;
+    padding-top: 76px;
+    padding-bottom: 167px;
+    background: #FAFAFA;
+}
+.mysliderItem{
+    width: 360px;
+    padding: 52px 22px 51px 34px;
+    border: 1px solid #7E7E7E;
+}
+.mysliderItem .ratingItem li{
+    list-style: none;
+}
+.mysliderItem .ratingItem{
+    display: flex;
+    justify-content: center;
+    color: #FE8B75;
+    margin-bottom: 12px;
+}
+.mysliderItem p{
+    width: 304px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--brandColor);
+    font-family: var(--ubuntu);
+    margin-bottom: 47px;
+}
+
+.mysliderItem .reviewProfile{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.mysliderItem .reviewProfile .personImg img{
+    width: 48px;
+    height: 48px;
+}
+.mysliderItem .reviewProfile .personText h2{
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+    margin-bottom: 4px;
+}
+
+.mysliderItem .reviewProfile .personText p{
+    text-align: start;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--brandColor);
+    margin: 0;
+
+}
+.mySlider{
+  position: relative;
+}
+.arrows{
+    height: 42px;
+    width: 42px;
+    font-size: 14px;
+    border:1px solid var(--brandColor);
+    border-radius:50%;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    position: absolute;
+  
+    bottom:-70px;
+    transition: all .4s linear;
+}
+.prr{
+  left: 45%;
+}
+.nrr{
+  right: 45%;
+}
+
+.arrows:hover{
+  background: var(--brandColor);
+  color: #fff;
+  cursor: pointer;
+}
+/* end testimonial */
+/* start subscribe */
+#subscribe{
+  padding-top: 121px;
+  padding-bottom: 35px;
+}
+.subRow{
+  margin-top: 59px;
+}
+.subscribeBox{
+  width: 616px;
+  height: 81px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribeBox button{
+  width: 196px;
+  height: 81px;
+  border-radius: 10px;
+  background: var(--brandColor);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--ubuntu);
+  color: #FBFBFB;
+  transition: all .4s linear;
+}
+.subscribeBox input{
+  width: 58%;
+  border-radius: 10px;
+  background:#F5F5F5 ;
+  border: none;
+  outline: none;
+  color:var(--brandColor);
+  margin-left: 38px;
+}
+.subscribeBox input::placeholder{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--ubuntu);
+  padding-left: 38px;
+}
+
+.subscribeBox button:hover{
+  background: #fff;
+  border: 1px solid var(--brandColor);
+  color: var(--brandColor);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* end subscribe */
+/* start footer */
+#footer{
+  background: var(--brandColor);
+  margin-top: 34px;
+  padding-top: 99px;
+  padding-bottom: 124px;
+  position: relative;
+}
+.footerImg{
+  width: 729px;
+  position: absolute;
+  top: -110px;
+  left: 0;
+}
+.footerText{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 105px;
+  margin-left: 780px;
+
+}
+.footerText .Ft1 h2{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: var(--ubuntu);
+  color: #FBFBFB;
+  margin-bottom: 54px;
+}
+
+.footerText .Ft1 p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--ubuntu);
+  color: #FBFBFB;
+  margin-bottom: 45px;
+  padding-right: 0 !important;
+  display: flex;
+  justify-content: start;
+}
+
+.footerText .Ft1 .special{
+  margin-bottom: 0;
+}
+.footerIcon{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  font-size: 32px;
+  color: white;
+}
+
+.footerIcon a{
+  color: #FBFBFB;
+  transition: all .4s linear;
+}
+
+.footerIcon a:hover{
+  transform: scale(1.15);
+}
