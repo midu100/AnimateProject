@@ -84,6 +84,9 @@ img{
     padding-top: 95px;
     position: relative;
 }
+.responsiveBanner{
+  display: none;
+}
 .bannerText h1{
     width: 586px;
     font-size: 90px;
@@ -296,7 +299,6 @@ button {
   }
   .infoRow .infoText p img{
     width: 48px;
-    height: 48px;
     margin-right: 18px;
   }
   .infoRow .infoText{
@@ -324,7 +326,6 @@ button {
   }
   .accesoriesRow .accesoriesTik p img{
     width: 49px;
-    height: 49px;
     margin-right: 18px;
   }
   
@@ -378,7 +379,6 @@ button {
   
   .shoppingText p img{
     width: 49px;
-    height: 49px;
     margin-right: 18px;
   }
   .shoppingText p{
@@ -460,7 +460,7 @@ button {
     position: relative;
 }
 .colorSlide2{
-    position: relative;
+    position: absolute;
     bottom: 100px;
 }
 /* end color */
@@ -470,6 +470,9 @@ button {
     padding-top: 76px;
     padding-bottom: 167px;
     background: #FAFAFA;
+}
+.mySlider .mysliderItem ul{
+  padding: 0;
 }
 .mysliderItem{
     width: 360px;
@@ -610,18 +613,17 @@ button {
   position: relative;
 }
 .footerImg{
-  width: 729px;
+  /* width: 729px; */
   position: absolute;
   top: -110px;
   left: 0;
 }
-.footerText{
+.footerText {
   text-align: center;
   display: flex;
   justify-content: center;
   gap: 105px;
-  margin-left: 780px;
-
+  margin-left: 0px;
 }
 .footerText .Ft1 h2{
   font-size: 22px;

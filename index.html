@@ -15,6 +15,7 @@
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <!-- link css -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/all.min.css">
   <!-- link slick -->
    <link rel="stylesheet" href="css/slick.css">
@@ -28,9 +29,9 @@
       <a class="navbar-brand navLogo" href="#"><img src="img/logo.png" alt="Logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fa-solid fa-bars-progress"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse mobileNav" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">PRODUCTS</a>
@@ -60,6 +61,13 @@
 
   <section id="banner">
     <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="responsiveBanner">
+            <img src="img/res-banner.png" alt="responsive">
+          </div>
+        </div>
+      </div>
       <div class="row">
 
         <div class="col-lg-12">
@@ -399,13 +407,13 @@
                     
                     <div class="mysliderItem">
   
-                      <u class="ratingItem">
+                      <ul class="ratingItem">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
-                      </u>
+                      </ul>
   
                       <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
   
@@ -545,18 +553,23 @@
           <!-- end subscribe -->
            <!-- start footer -->
             <footer id="footer">
-              <div class="col-lg-3">
-                <div data-aos="zoom-out-down"  data-aos-duration="2000" class="footerImg">
-                  <img src="img/footer.png" alt="footer">
 
-                </div>
-              </div>
+
+
 
               <div class="container">
                 
                 <div class="row">
 
-                  <div class="col-lg-12">
+                  <div class="col-lg-3">
+                    <div data-aos="zoom-out-down"  data-aos-duration="2000" class="footerImg">
+                      <img src="img/footer.png" alt="footer">
+      
+                    </div>
+                  </div>
+                  
+
+                  <div class="col-lg-9">
                     <div class="footerText">
                       <div class="Ft1">
                         <h2>About</h2>

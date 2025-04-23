@@ -1,0 +1,799 @@
+/* Extra Small Device */
+
+@media(max-width:575.98px){
+    /* nav */
+    .mainNav .navLogo {
+        width: 48px;
+    }
+    .navbar-toggler {
+        padding: 5px 15px;
+    }
+    .mobileNav{
+        margin-top: 15px;
+    }
+    .mainNav ul{
+        align-items: center;
+    }
+    .mainNav .navBtn a {
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+    
+    .mainNav .navBtn{
+        justify-content: center;
+    }
+    /* banner */
+    #banner {
+        padding-top: 20px;
+    }
+    #banner .bannerScooter {
+        display: none;
+    }
+    #banner .bannerScooterBg {
+        display: none;
+    }
+    .responsiveBanner{
+        display: block;
+    }
+    .bannerText h1 {
+        width: 100%;
+        font-size: 43px;
+    }
+    .bannerText .baseLine {
+        width: 100%;
+    }
+    .bannerText .para {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 26px;
+    }
+    .bannerText .bannerBtn {
+        flex-wrap: wrap;
+    }
+    .bannerText .bannerBtn p {
+        width: 70px;
+        font-size: 13px;
+    }
+    .bannerText .bannerBtn .bannerRotate {
+        width: 60px;
+        height: 60px;
+        
+    }
+    .bannerText .bannerBtn .bannerRotate .triangle {
+        top: 45%;
+        left: 48%;
+    }
+    /* counter */
+    #Counter {
+        padding-top: 50px;
+       
+    }
+    .singleCounter {
+        width: 100%;
+        margin-top: 20px;
+        background-image: radial-gradient( circle 708px at 0% 3.4%,  rgba(254,216,7,1) 14.5%, rgba(249,69,28,1) 71.8% );
+    }
+    /* information */
+    .commonHead h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .commonHead p {
+        font-size: 17px;
+    }
+    .infoRow .infoImg {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .infoRow .infoText {
+        margin-top: 34px;
+    }
+    .infoRow .infoText p img {
+        width: 20px;
+        /* height: 48px; */
+        margin-right: 5px;
+    }
+    .infoRow .infoText p {
+        font-size: 13px;
+    }
+    /* motor */
+    .motorRow .motorImg {
+        width: 100%;
+    }
+    /* accesories */
+    #accesories {
+        padding-top: 20px;
+    }
+    .accesoriesRow {
+        margin-top: 0px;
+    }
+    .accesoriesRow .accesoriesText h2 {
+        font-size: 44px;
+    }
+    .accesoriesRow .accesoriesTik p img {
+        width: 26px;
+        margin-right: 5px;
+    }
+    .accesoriesRow .accesoriesTik p {
+        font-size: 17px;
+    }
+    .accesoriesRow .accesoriesImg {
+        width: 100%;
+    }
+    /* shopping */
+    #shopping {
+        padding-top: 80px;
+        padding-bottom: 38px;
+  
+    }
+    .shoppingImg {
+        width: 100%;
+    }
+    .shoppingText {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .shoppingText h2 {
+        font-size: 22px;
+    }
+    .shoppingBtn a {
+        font-size: 11px;
+        padding: 10px 30px;
+    }
+    .shoppingText p img {
+        width: 20px;
+        /* height: 49px; */
+        margin-right: 5px;
+    }
+    .shoppingText p {
+        font-size: 17px;
+    }
+    /* gallery */
+    #gallery {
+        padding-bottom: 50px;
+    }
+    .galleryScooter {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .galleryBtn {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 13px;
+    }
+    .galleryBtn a {
+        font-size: 26px;
+    }
+    .galleryQualityImg {
+        width: 100%;
+    }
+     .galleryPartsImg {
+        width: 100%;
+    }
+    /* color */
+    .colorRow {
+        margin-top: 15px;
+    }
+    .colorMainSlider .colorSlide2{
+        display: none;
+    }
+    
+    .colorMainSlider {
+        position: relative;
+    }
+    .resArrow{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+    }
+    .resP{
+        z-index: 1;
+        left: 20%;
+        transform: translate(-50%);
+
+    }
+    .resR{
+        right: 20%;
+        transform: translate(-50%);
+    }
+    /* testimonials */
+    #testimonial {
+        margin-top: 25px;
+    }
+    .mysliderItem {
+        width: 100%;
+    }
+    .mysliderItem p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .mysliderItem .reviewProfile {
+        gap: 12px;
+        justify-content: center;
+    }
+    .arrows {
+        height: 35px;
+        width: 35px;
+    }
+    .prr {
+        left: 35%;
+    }
+    .nrr {
+        right: 35%;
+    }
+    /* subscribe */
+    .subscribeBox {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .subscribeBox input {
+        width: 60%;
+        height: 40px;
+    }
+    .subscribeBox button {
+        width: 124px;
+        height: 39px;
+        font-size: 12px;
+    }
+    /* footer */
+    .footerText {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerImg {
+        /* width: 729px; */
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 130px;
+    }
+}
+
+/* small device */
+
+@media(min-width:576px) and (max-width:767.98px){
+    /* nav */
+    .mainNav .navLogo {
+        width: 48px;
+    }
+    .navbar-toggler {
+        padding: 5px 15px;
+    }
+    .mobileNav{
+        margin-top: 15px;
+    }
+    .mainNav ul{
+        align-items: center;
+    }
+    .mainNav .navBtn a {
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+    
+    .mainNav .navBtn{
+        justify-content: center;
+    }
+    /* banner */
+    #banner {
+        padding-top: 20px;
+    }
+    #banner .bannerScooter {
+        display: none;
+    }
+    #banner .bannerScooterBg {
+        display: none;
+    }
+    .responsiveBanner{
+        display: block;
+    }
+    .bannerText h1 {
+        width: 100%;
+        font-size: 43px;
+    }
+    .bannerText .baseLine {
+        width: 100%;
+    }
+    .bannerText .para {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 26px;
+    }
+    .bannerText .bannerBtn {
+        flex-wrap: wrap;
+    }
+    .bannerText .bannerBtn p {
+        width: 70px;
+        font-size: 13px;
+    }
+    .bannerText .bannerBtn .bannerRotate {
+        width: 60px;
+        height: 60px;
+        
+    }
+    .bannerText .bannerBtn .bannerRotate .triangle {
+        top: 45%;
+        left: 48%;
+    }
+    /* counter */
+    #Counter {
+        padding-top: 50px;
+       
+    }
+    .singleCounter {
+        width: 100%;
+        margin-top: 20px;
+        background: #000;
+    }
+    .singleCounter h2 {
+        color: #fff;
+    }
+    .singleCounter p {
+        color: #fff;
+    }
+    /* information */
+    .commonHead h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .commonHead p {
+        font-size: 17px;
+    }
+    .infoRow .infoImg {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .infoRow .infoText {
+        margin-top: 34px;
+    }
+    .infoRow .infoText p img {
+        width: 20px;
+        /* height: 48px; */
+        margin-right: 5px;
+    }
+    .infoRow .infoText p {
+        font-size: 13px;
+    }
+    /* motor */
+    .motorRow .motorImg {
+        width: 100%;
+    }
+    /* accesories */
+    #accesories {
+        padding-top: 20px;
+    }
+    .accesoriesRow {
+        margin-top: 0px;
+    }
+    .accesoriesRow .accesoriesText h2 {
+        font-size: 44px;
+    }
+    .accesoriesRow .accesoriesTik p img {
+        width: 26px;
+        margin-right: 5px;
+    }
+    .accesoriesRow .accesoriesTik p {
+        font-size: 17px;
+    }
+    .accesoriesRow .accesoriesImg {
+        width: 100%;
+    }
+    /* shopping */
+    #shopping {
+        padding-top: 80px;
+        padding-bottom: 38px;
+  
+    }
+    .shoppingImg {
+        width: 100%;
+    }
+    .shoppingText {
+        margin-left: 0;
+        margin-top: 247px;
+    }
+    .shoppingText h2 {
+        font-size: 22px;
+    }
+    .shoppingBtn a {
+        font-size: 11px;
+        padding: 10px 30px;
+    }
+    .shoppingText p img {
+        width: 20px;
+        /* height: 49px; */
+        margin-right: 5px;
+    }
+    .shoppingText p {
+        font-size: 17px;
+    }
+    /* gallery */
+    #gallery {
+        padding-bottom: 50px;
+    }
+    .galleryScooter {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .galleryBtn {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 13px;
+    }
+    .galleryBtn a {
+        font-size: 26px;
+    }
+    .galleryQualityImg {
+        width: 100%;
+    }
+     .galleryPartsImg {
+        width: 100%;
+    }
+    /* color */
+    .colorRow {
+        margin-top: 15px;
+    }
+    .colorMainSlider .colorSlide2{
+        display: none;
+    }
+    
+    .colorMainSlider {
+        position: relative;
+    }
+    .resArrow{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 80%;
+        transform: translate(-50%);
+        transition: all .4s linear;
+    }
+    .resP{
+        z-index: 1;
+        left: 20%;
+        transform: translate(-50%);
+
+    }
+    .resR{
+        right: 20%;
+        transform: translate(-50%);
+        
+    }
+    .resArrow:hover{
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* testimonials */
+    #testimonial {
+        margin-top: 25px;
+    }
+    .mysliderItem {
+        width: 100%;
+    }
+    .mysliderItem p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .mysliderItem .reviewProfile {
+        gap: 12px;
+        justify-content: center;
+    }
+    .arrows {
+        height: 35px;
+        width: 35px;
+    }
+    .prr {
+        left: 35%;
+    }
+    .nrr {
+        right: 35%;
+    }
+    /* subscribe */
+    .subscribeBox {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .subscribeBox input {
+        width: 60%;
+        height: 40px;
+    }
+    .subscribeBox button {
+        width: 124px;
+        height: 39px;
+        font-size: 12px;
+    }
+    /* footer */
+    .footerText {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerImg {
+        /* width: 729px; */
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 183px;
+    }
+}
+
+/* medium */
+
+@media(min-width:768px) and (max-width:991.98px){
+    /* nav */
+    .mainNav .navLogo {
+        width: 48px;
+    }
+    .navbar-toggler {
+        padding: 5px 15px;
+    }
+    .mobileNav{
+        margin-top: 15px;
+    }
+    .mainNav ul{
+        align-items: center;
+    }
+    .mainNav .navBtn a {
+        padding: 15px 40px;
+        font-size: 15px;
+    }
+    .mainNav ul li a {
+        font-size: 16px;
+    }
+    
+    .mainNav .navBtn{
+        justify-content: center;
+    }
+    /* banner */
+    #banner {
+        padding-top: 20px;
+    }
+    #banner .bannerScooter {
+        display: none;
+    }
+    #banner .bannerScooterBg {
+        display: none;
+    }
+    .responsiveBanner{
+        display: block;
+    }
+    .bannerText h1 {
+        width: 100%;
+        font-size: 56px;
+    }
+    .bannerText .baseLine {
+        width: 100%;
+    }
+    .bannerText .para {
+        width: 100%;
+        font-size: 28px;
+        margin-top: 26px;
+    }
+    .bannerText .bannerBtn {
+        flex-wrap: wrap;
+    }
+    .bannerText .bannerBtn p {
+        width: 70px;
+        font-size: 13px;
+    }
+    .bannerText .bannerBtn .bannerRotate {
+        width: 60px;
+        height: 60px;
+        
+    }
+    .bannerText .bannerBtn .bannerRotate .triangle {
+        top: 45%;
+        left: 48%;
+    }
+    /* counter */
+    #Counter {
+        padding-top: 50px;
+       
+    }
+    .singleCounter {
+        width: 100%;
+        margin-top: 20px;
+        background-image: linear-gradient( 177.6deg,  rgba(20,0,113,1) 15.3%, rgba(1,0,62,1) 91.3% );;
+    }
+    .singleCounter h2 {
+        color: #fff;
+    }
+    .singleCounter p {
+        color: #fff;
+    }
+    /* information */
+    .commonHead h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .commonHead p {
+        font-size: 17px;
+    }
+    .infoRow .infoImg {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .infoRow .infoText {
+        margin-top: 34px;
+    }
+    .infoRow .infoText p img {
+        width: 30px;
+        /* height: 48px; */
+        margin-right: 10px;
+    }
+    .infoRow .infoText p {
+        font-size: 18px;
+    }
+    /* motor */
+    .motorRow .motorImg {
+        width: 100%;
+    }
+    /* accesories */
+    #accesories {
+        padding-top: 20px;
+    }
+    .accesoriesRow {
+        margin-top: 0px;
+    }
+    .accesoriesRow .accesoriesText h2 {
+        font-size: 44px;
+    }
+    .accesoriesRow .accesoriesTik p img {
+        width: 26px;
+        margin-right: 5px;
+    }
+    .accesoriesRow .accesoriesTik p {
+        font-size: 17px;
+    }
+    .accesoriesRow .accesoriesImg {
+        width: 100%;
+    }
+    /* shopping */
+    #shopping {
+        padding-top: 80px;
+        padding-bottom: 38px;
+  
+    }
+    .shoppingImg {
+        width: 100%;
+    }
+    .shoppingText {
+        margin-left: 0;
+        margin-top: 420px;
+    }
+    .shoppingText h2 {
+        font-size: 22px;
+    }
+    .shoppingBtn a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    .shoppingText p img {
+        width: 20px;
+        /* height: 49px; */
+        margin-right: 5px;
+    }
+    .shoppingText p {
+        font-size: 17px;
+    }
+    /* gallery */
+    #gallery {
+        padding-bottom: 50px;
+    }
+    .galleryScooter {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .galleryBtn {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 13px;
+    }
+    .galleryBtn a {
+        font-size: 26px;
+    }
+    .galleryQualityImg {
+        width: 100%;
+    }
+     .galleryPartsImg {
+        width: 100%;
+    }
+    /* color */
+    .colorRow {
+        margin-top: 15px;
+    }
+    .colorMainSlider .colorSlide2{
+        display: none;
+    }
+    
+    .colorMainSlider {
+        position: relative;
+    }
+    .resArrow{
+        width: 30px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        color: #fff;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+    }
+    .resP{
+        z-index: 1;
+        left: 20%;
+        transform: translate(-50%);
+
+    }
+    .resR{
+        right: 20%;
+        transform: translate(-50%);
+    }
+    /* testimonials */
+    #testimonial {
+        margin-top: 25px;
+    }
+    .mysliderItem {
+        width: 100%;
+    }
+    .mysliderItem p {
+        width: 100%;
+        font-size: 19px;
+    }
+    .mysliderItem .reviewProfile {
+        gap: 12px;
+        justify-content: center;
+    }
+    .arrows {
+        height: 35px;
+        width: 35px;
+    }
+    .prr {
+        left: 35%;
+    }
+    .nrr {
+        right: 35%;
+    }
+    /* subscribe */
+    .subscribeBox {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .subscribeBox input {
+        width: 65%;
+        height: 50px;
+    }
+    .subscribeBox button {
+        width: 145px;
+        height: 50px;
+        font-size: 14px;
+    }
+    /* footer */
+    .footerText {
+        /* flex-direction: row; */
+        align-items: center;
+    }.footerImg {
+        top: -26px;
+        width: 135px;
+    }
+}
+
+/* lg */
